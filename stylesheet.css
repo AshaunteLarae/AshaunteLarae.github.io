@@ -7,8 +7,8 @@
 
 body
 	{
-	background-color: #E9E4D3;
-	font-family: "Copal ", Century;
+	background-color: #bbedff;
+	font-family: "Lora", serif;
 	}
 
 .container {
@@ -80,7 +80,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-	color: #7C5D2D;
+	color: red;
 	transition: 0.5s ease-in;
 }
 
