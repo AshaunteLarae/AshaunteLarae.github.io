@@ -1,0 +1,152 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+body
+	{
+	background-color: #E9E4D3;
+	font-family: "Copal ", Century;
+	}
+
+.square{
+  background-color: rgba(255,255,255,0.8);
+  padding: 2em;
+}
+.container {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 100px;
+	height: auto;
+	float: left;
+	padding-right: 1em;
+	margin-left: 1em;
+}
+
+h1, h2, p {
+	margin-top: 2em;
+}
+
+.one {
+	background-color: red;
+
+}
+.two {
+	background-color: blue;
+}
+.three {
+	background-color: green;
+}
+
+.three:hover {
+	color: red;
+	transform: rotate(10deg);
+	transition: 0.5s ease-in;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	color: white;
+	float: left;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5em;
+	padding: 0.8em 1em;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	color: #7C5D2D;
+	transition: 0.5s ease-in;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+li.menu{
+  float:none;
+  width: 200px;
+}
+#CISE{
+
+  width: 100%;
+
+}
+.menubar{
+  width: 100%;
+
+}
+.left{
+  width: 10%;
+  float: left;
+}
+.productcloseups{
+  width: 10%;
+  float: left;
+}
+.productcloseups img{
+  width: 100%;
+}
+.productimage{
+  width: 40%;
+  float: left;
+}
+.productimage img{
+  width: 100%;
+}
+.checkout{
+  width: 40%;
+  float: left;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	z-index: 1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 6px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}

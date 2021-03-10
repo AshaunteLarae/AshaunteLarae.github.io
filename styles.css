@@ -1,0 +1,39 @@
+*
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+
+.box {
+  width: 200px;
+  height: 200px;
+  color: white;
+  float: left;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: blue;
+
+}
+
+.three {
+  background-color: green;
+
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+background-image: url("HomepageCover.jpg");
+background-image: no-repeat;
+background-size: contain;
+}
