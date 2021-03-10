@@ -31,9 +31,3 @@
   clear: both;
   display: table;
 }
-
-body {
-background-image: url("HomepageCover.jpg");
-background-image: no-repeat;
-background-size: contain;
-}
